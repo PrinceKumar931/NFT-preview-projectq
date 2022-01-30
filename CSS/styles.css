@@ -1,19 +1,25 @@
 body {
   background-color: #0d1a2d;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  height: 100vh;
+  font-family: 'Outfit', sans-serif;
 }
 .card {
   box-sizing: border-box;
   width: 320px;
   background-color: #15273f;
   border-radius: 20px;
-  margin: 5% auto;
   padding-bottom: 30px;
   padding-top: 20px;
 }
 h3 {
   color: white;
 }
+
 h3:hover {
+  transition: all 0.5s ease-out;
   color: #04fdfa;
 }
 .img-div {
@@ -38,6 +44,7 @@ h3:hover {
   border-radius: 10px;
   top: -18.5%;
   left: 0;
+  transition: all 0.5s ease-out;
 }
 #equi-image:hover {
   opacity: 0.2;
@@ -114,5 +121,6 @@ strong {
 }
 
 strong:hover {
+  transition: all 0.5s ease-out;
   color: #04fdfa;
 }
